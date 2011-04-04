@@ -1,0 +1,137 @@
+/***** CSS RESET *******/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+	}
+blockquote, q {
+	quotes: none;
+	}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+	}
+del {
+	text-decoration: line-through;
+	}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+a:link, a:visited {
+	text-decoration: none;
+	}
+/***** END CSS RESET (thanks to Eric Meyer) *******/
+
+
+/***** UTILITY STYLES *******/
+.clear {
+	clear: both;
+	}
+	
+/***** Body *******/
+
+body {
+	background-color: #993a17;
+	font-size: 100.01%;
+	/*centering for IE6*/
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	}
+	
+/***** Centering div *******/
+#center {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	}
+	
+/***** Inner Background div *******/
+#inner-bg {
+	width: 1200px;
+	background-image: url("../img/bg.gif");
+	background-repeat: repeat-y;
+	margin: auto;
+}
+
+h1 {
+	font: normal 6em 'Cabin Sketch', serif;
+	line-height: 1.2em;
+}
+
+h2 {
+	font: normal 2em 'Cabin Sketch', serif;
+}
+
+h3 {
+	font: normal 1.5em arial, helvetica, sans-serif;
+}
+
+a:link, a:visted {
+
+}
+#logo {
+	margin: 0 0 16px 0;
+}
+#main {
+	background-color: #faf5e7;
+	margin: 8px auto;
+	text-align: left;
+	width: 600px;
+	border: 6px solid #855705;
+	-moz-border-radius: 14px; 
+	-webkit-border-radius: 12px;
+}
+form {
+	padding: 16px 24px 24px 24px;
+	}	
+form ol {
+	padding: 18px 18px 18px;
+}
+form li{
+	font: normal 1em/1.5em helvetica, arial;
+}
+legend {
+	font: bold 1.5em/1.75em helvetica, arial;
+}
+.button {
+	background-color: #2e2e2e;
+	color: #fff; 
+	font: bold 1.2em Verdana, sans-serif;
+	margin-left: 12px;
+	padding: 5px 18px !important; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 5px;
+}
+.button:hover {
+	background: #ff9900; 
+	cursor: pointer;
+}
+#footer {
+	margin: 18px 0 0 0;
+	height: 46px;
+}
